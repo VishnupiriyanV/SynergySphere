@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from 'react';
+import { Typography, Box, Button, List, ListItemText, Paper, CircularProgress, Avatar, Dialog, DialogTitle, DialogContent, DialogActions, TextField } from '@mui/material';
+
 function DashboardPage() {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
